@@ -20,7 +20,7 @@ disabled_commands:
 servers:
   lobby:
     motd: '&1tonkat.su lobby'
-    address: 192.168.223.121:25565
+    address: _lobby.mc.tonkat.su:25565
     restricted: false
   pumpcraft:
     motd: '&1any gamers?'
@@ -33,7 +33,7 @@ listeners:
   query_enabled: false
   proxy_protocol: false
   forced_hosts:
-    pumpcraft.tonkat.su: pumpcraft
+    pumpcraft.mc.tonkat.su: pumpcraft
   ping_passthrough: true
   priorities:
   - lobby
