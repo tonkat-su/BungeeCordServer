@@ -20,14 +20,14 @@ disabled_commands:
 servers:
   lobby:
     motd: '&1tonkat.su lobby'
-    address: lobby.tonkat.su:25565
+    address: 192.168.223.121:25565
     restricted: false
   pumpcraft:
     motd: '&1any gamers?'
     address: mc.sep.gg:25565
     restricted: false
 listeners:
-- query_port: 25577
+- query_port: 25565
   motd: '&1Gamers Rise Up'
   tab_list: GLOBAL_PING
   query_enabled: false
