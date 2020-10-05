@@ -26,6 +26,10 @@ servers:
     motd: '&1any gamers?'
     address: mc.sep.gg:25565
     restricted: false
+  creative:
+    motd: '&1CREATIVE'
+    address: create.mc.pvt.tonkat.su:25565
+    restricted: false
 listeners:
 - query_port: 25565
   motd: '&1Gamers Rise Up'
@@ -34,6 +38,7 @@ listeners:
   proxy_protocol: false
   forced_hosts:
     pumpcraft.mc.tonkat.su: pumpcraft
+    create.mc.tonkat.su: creative
   ping_passthrough: true
   priorities:
   - lobby
